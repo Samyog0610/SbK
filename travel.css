@@ -1,0 +1,408 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+#menu{
+    list-style: none;
+    display: flex;
+}
+#header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#menu a{
+    padding: 15px;
+}
+#menu li:last-child{
+    margin-left: 60px;
+}
+body{
+    background-image: url('Group 75.png');
+    background-repeat: no-repeat;
+background-position: center top;
+background-size: 100% auto;
+.booking-header {
+    border-radius: 20px 120px 0px 0px;
+    background: #212121;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .booking-wrapper {
+    border-radius: 0px 20px 20px 20px;
+    border: 1px solid rgba(81, 77, 89, 0.1);
+    background: rgba(255, 255, 255, 0.65);
+    box-shadow: 0px 0px 0px 0px rgba(81, 77, 89, 0.15),
+      0px 12px 27px 0px rgba(81, 77, 89, 0.15),
+      0px 49px 49px 0px rgba(81, 77, 89, 0.13),
+      0px 110px 66px 0px rgba(81, 77, 89, 0.08),
+      0px 195px 78px 0px rgba(81, 77, 89, 0.02),
+      0px 304px 85px 0px rgba(81, 77, 89, 0);
+    backdrop-filter: blur(25px);
+    padding: 25px;
+  }
+  
+  .booking-form {
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+  }
+  
+  .form-block {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    /* flex-grow: 1; */
+  }
+  
+  .booking-form label {
+    display: block;
+  }
+  
+  .form-block i {
+    margin-right: 15px;
+    color: #884aff;
+  }
+  
+  .booking-form button {
+    border-radius: 15px;
+    background: #884aff;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .booking-form label {
+    color: rgba(81, 77, 89, 0.8);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .booking-form input {
+    color: #514d59;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    width: 100%;
+  }
+  
+  #booking {
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+}
+  
+  #intro {
+    padding-top: 220px;
+    padding-bottom: 220px;
+  }
+  
+  section h2 {
+    color: #514d59;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 85.714% */
+    margin-bottom: 90px;
+}
+div{
+    border:3px dotted red;
+    padding: 3px;
+}
+label{
+    border: 3px solid green;
+}
+
+
+#sherpa{
+background:#F3F6F9;
+padding-top:60px;
+padding-bottom:60px;
+}
+
+
+#sherpa p{
+margin-bottom:60px;
+}
+#sherpa img{
+width:60px;
+margin-top:-40px;
+border-radius:-50;
+}
+.box{
+background:white;
+padding: 20px;
+margin: 10px;
+
+}
+#sherpa.box p{
+text-align-last: left;
+margin-bottom: 0;
+}
+#flex{
+display:flex;
+}
+#cities {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    border: 1px solid rgba(81, 77, 89, 0.15);
+    background: #fafafa;
+  }
+  
+  .cities-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 170px;
+  }
+  
+  .cities-flex:last-child {
+    margin-bottom: 0;
+  }
+  
+  .cities-flex > div {
+    width: 50%;
+  }
+  
+  section#cities h2 {
+    text-align: left;
+  }
+  
+  #cities h2 {
+    color: #514d59;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 120% */
+    margin-bottom: 30px;
+  }
+  
+  #cities a {
+    color: #7000ff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  #testimonials {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background-image: url("Group 76.png");
+    background-position: auto;
+    background-repeat: no-repeat;
+  }
+  
+  #testimonials .author {
+    float: right;
+  }
+  
+  .testimonial-block {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .testimonial-block small{
+    color: #514D59;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /
+  }
+  
+  #testimonials h2{
+    color: #514D59;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  }
+  
+  footer{
+    background: #333333;
+    padding-top: 30px;
+    /* padding-bottom: 80px; */
+  }
+  
+  .social-media{
+    list-style-type: none;
+    display: flex;
+    margin-top: 75px;
+  }
+  
+  .social-media li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    }
+
+.social-media li:first-child a{
+  padding-left: 0;
+}
+
+footer a{
+  color: #FAFAFA;
+text-decoration: none;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer-flex{
+  display: flex;
+}
+
+.footer-block{
+  flex-grow: 1;
+
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer ul li {
+  margin-bottom: 15px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: a;
+}
+
+footer{
+  color: white;
+}
+
+footer h2{
+  margin-bottom: 25px;
+}
+
+.footer-bottom{
+  background: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  
+  justify-items: space-between;
+}
+
+footer .footer-bottom ul li{
+  margin-bottom: 0;
+}
+
+footer .footer-bottom ul li a{
+  color: #625F67;
+  padding-left: 50px;
+}
+
+footer .footer-bottom{
+ color: #625F67;
+ margin-top: 87px;
+}
+footer .footer-bottom ul li a{
+  color: #625F67;
+  padding-left: 50px;
+}
+
+footer .footer-bottom{
+ color: #625F67;
+ margin-top: 87px;
+ justify-content: space-between;
+ align-self: flex-start;
+}
+@media (min-width:576px) and (max-width:991px){
+    #sherpa{
+        width:50%
+
+    }
+    #sherpa p{
+        margin-bottom:30px;
+
+    }
+
+#sherpa img{
+width:30px;
+margin-top:-60px;
+border-radius:-40;}
+
+.box{
+background:white;
+padding: 40px;
+margin: 20px;
+
+}
+#sherpa.box p{
+text-align-last: center;
+margin-bottom: 0;
+
+}
+}
+@media (max-width:575px){
+    #sherpa{
+        width: 100%;
+        flex-direction: column;
+    }
+    #sherpa p{
+        margin-bottom:30px;}
+    
+    #sherpa img{
+    width:30px;
+    margin-top:-60px;
+    border-radius:-40;
+}
+
+.box{
+background:white;
+padding: 40px;
+margin: 20px;
+
+}
+#sherpa.box p{
+text-align-last: center;
+margin-bottom: 0;
+}
+}
